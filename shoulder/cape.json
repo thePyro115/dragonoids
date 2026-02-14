@@ -6,12 +6,12 @@
 		"entityTextureMode": true
 	},
 	"textureWidth": 28,
-	"textureHeight": 56,
+	"textureHeight": 32,
 	"textureSizes": {
-		"shouldertexture": [28,56]
+		"shouldertexture": [28,32]
 	},
 	"textures": {
-		"shouldertexture": "entity/humanoid/seraphclothes/shoulder/miner"
+		"shouldertexture": "entity/humanoid/seraphclothes/shoulder/hunter-poncho"
 	},
 	"elements": [
 		{
@@ -49,7 +49,7 @@
 					}
 				},
 				{
-					"name": "Breasts",
+					"name": "Cube2",
 					"from": [ -1.4, 2.2, 0.01 ],
 					"to": [ 0.6, 5.2, 6.25 ],
 					"unwrapMode": 1,
@@ -62,8 +62,8 @@
 						"east": { "texture": "#shouldertexture", "uv": [ -2.0, 5.5, 4.0, 8.5 ] },
 						"south": { "texture": "#shouldertexture", "uv": [ 12.0, 5.5, 14.0, 8.5 ] },
 						"west": { "texture": "#shouldertexture", "uv": [ 6.0, 5.5, 12.0, 8.5 ] },
-						"up": { "texture": "#shouldertexture", "uv": [ 6.0, 3.5, 12.0, 5.5 ], "rotation": 270 },
-						"down": { "texture": "#shouldertexture", "uv": [ 6.0, 8.0, 12.0, 10.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+						"up": { "texture": "#shouldertexture", "uv": [ 4.0, -0.5, 6.0, 5.5 ], "rotation": 180 },
+						"down": { "texture": "#shouldertexture", "uv": [ 6.0, 6.5, 12.0, 8.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 					}
 				}
 			]
@@ -110,11 +110,11 @@
 			"uv": [ 8.0, 21.0 ],
 			"rotationOrigin": [ 1.5, 7.0, 1.0 ],
 			"faces": {
-				"north": { "texture": "#shouldertexture", "uv": [ 4.0, 22.0, 7.0, 29.0 ] },
-				"east": { "texture": "#shouldertexture", "uv": [ 2.0, 22.0, 4.0, 29.0 ] },
-				"south": { "texture": "#shouldertexture", "uv": [ 9.0, 22.0, 12.0, 29.0 ] },
-				"west": { "texture": "#shouldertexture", "uv": [ 7.0, 22.0, 9.0, 29.0 ] },
-				"up": { "texture": "#shouldertexture", "uv": [ 7.0, 19.0, 9.0, 22.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"north": { "texture": "#shouldertexture", "uv": [ 4.0, 21.5, 7.0, 28.5 ] },
+				"east": { "texture": "#shouldertexture", "uv": [ 2.0, 21.5, 4.0, 28.5 ] },
+				"south": { "texture": "#shouldertexture", "uv": [ 9.0, 21.5, 12.0, 28.5 ] },
+				"west": { "texture": "#shouldertexture", "uv": [ 7.0, 21.5, 9.0, 28.5 ] },
+				"up": { "texture": "#shouldertexture", "uv": [ 7.0, 18.5, 9.0, 21.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
 				"down": { "texture": "#shouldertexture", "uv": [ 10.0, 18.0, 12.0, 21.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
 			}
 		},
@@ -128,29 +128,12 @@
 			"uv": [ 0.0, 13.0 ],
 			"rotationOrigin": [ 1.5, 6.9, 1.0 ],
 			"faces": {
-				"north": { "texture": "#shouldertexture", "uv": [ 13.0, 22.0, 16.0, 29.0 ] },
-				"east": { "texture": "#shouldertexture", "uv": [ 21.0, 22.0, 23.0, 29.0 ], "windMode": [-1,-1,-1,-1] },
-				"south": { "texture": "#shouldertexture", "uv": [ 18.0, 22.0, 21.0, 29.0 ], "windMode": [-1,-1,-1,-1] },
-				"west": { "texture": "#shouldertexture", "uv": [ 16.0, 22.0, 18.0, 29.0 ] },
-				"up": { "texture": "#shouldertexture", "uv": [ 16.0, 19.0, 18.0, 22.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"north": { "texture": "#shouldertexture", "uv": [ 13.0, 21.5, 16.0, 28.5 ] },
+				"east": { "texture": "#shouldertexture", "uv": [ 21.0, 21.5, 23.0, 28.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#shouldertexture", "uv": [ 18.0, 21.5, 21.0, 28.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#shouldertexture", "uv": [ 16.0, 21.5, 18.0, 28.5 ] },
+				"up": { "texture": "#shouldertexture", "uv": [ 16.0, 18.5, 18.0, 21.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
 				"down": { "texture": "#shouldertexture", "uv": [ 13.0, 18.0, 15.0, 21.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
-			}
-		},
-		{
-			"name": "Hood",
-			"stepParentName": "Head",
-			"from": [ -0.55, -2.4, -0.62 ],
-			"to": [ 6.55, 5.6, 5.58 ],
-			"unwrapMode": 4,
-			"autoUnwrap": false,
-			"uv": [ 1.0, 40.0 ],
-			"faces": {
-				"north": { "texture": "#shouldertexture", "uv": [ 1.0, 47.0, 8.0, 55.0 ] },
-				"east": { "texture": "#shouldertexture", "uv": [ 21.0, 47.0, 27.0, 55.0 ] },
-				"south": { "texture": "#shouldertexture", "uv": [ 14.0, 47.0, 21.0, 55.0 ] },
-				"west": { "texture": "#shouldertexture", "uv": [ 8.0, 47.0, 14.0, 55.0 ] },
-				"up": { "texture": "#shouldertexture", "uv": [ 8.0, 40.0, 14.0, 47.0 ], "rotation": 90 },
-				"down": { "texture": "#shouldertexture", "uv": [ 1.0, 39.0, 7.0, 46.0 ], "rotation": 270 }
 			}
 		}
 	]}
