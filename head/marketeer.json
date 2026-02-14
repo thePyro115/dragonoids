@@ -1,0 +1,280 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "collapsedPaths":  "",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  28,
+    "textureHeight":  20,
+    "textureSizes":  {
+                         "hat":  [
+                                     28,
+                                     20
+                                 ]
+                     },
+    "textures":  {
+                     "hat":  "entity/humanoid/seraphclothes/head/marketeer"
+                 },
+    "elements":  [
+                     {
+                         "name":  "origin",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.12,
+                                      -0.2,
+                                      -0.15
+                                  ],
+                         "to":  [
+                                    5.08,
+                                    5.2,
+                                    5.15
+                                ],
+                         "unwrapMode":  4,
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    1.5,
+                                    2.0
+                                ],
+                         "rotationOrigin":  [
+                                                2.25,
+                                                3.87,
+                                                3.2
+                                            ],
+                         "rotationZ":  1.0,
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                1.5,
+                                                                7.5,
+                                                                6.5,
+                                                                12.5
+                                                            ],
+                                                     "windMode":  [
+                                                                      -1,
+                                                                      -1,
+                                                                      -1,
+                                                                      -1
+                                                                  ],
+                                                     "windData":  [
+                                                                      1,
+                                                                      1,
+                                                                      1,
+                                                                      1
+                                                                  ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               17.5,
+                                                               7.5,
+                                                               22.5,
+                                                               12.5
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                12.0,
+                                                                7.5,
+                                                                17.0,
+                                                                12.5
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               7.0,
+                                                               8.0,
+                                                               12.0,
+                                                               13.0
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#hat",
+                                                  "uv":  [
+                                                             7.0,
+                                                             2.0,
+                                                             12.0,
+                                                             7.0
+                                                         ],
+                                                  "rotation":  90
+                                              },
+                                       "down":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               7.0,
+                                                               12.5,
+                                                               12.0,
+                                                               17.5
+                                                           ],
+                                                    "rotation":  90,
+                                                    "windMode":  [
+                                                                     -1,
+                                                                     -1,
+                                                                     -1,
+                                                                     -1
+                                                                 ],
+                                                    "windData":  [
+                                                                     1,
+                                                                     1,
+                                                                     1,
+                                                                     1
+                                                                 ]
+                                                }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "neck",
+                                              "from":  [
+                                                           -0.1,
+                                                           -1.0,
+                                                           1.1
+                                                       ],
+                                              "to":  [
+                                                         4.4,
+                                                         0.0,
+                                                         4.2
+                                                     ],
+                                              "unwrapMode":  4,
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         13.0,
+                                                         4.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     -0.1,
+                                                                     -1.0,
+                                                                     1.1
+                                                                 ],
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#hat",
+                                                                          "uv":  [
+                                                                                     13.0,
+                                                                                     1.5,
+                                                                                     17.5,
+                                                                                     2.5
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#hat",
+                                                                         "uv":  [
+                                                                                    13.0,
+                                                                                    3.5,
+                                                                                    16.0,
+                                                                                    4.5
+                                                                                ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#hat",
+                                                                          "uv":  [
+                                                                                     13.0,
+                                                                                     2.5,
+                                                                                     17.5,
+                                                                                     3.5
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#hat",
+                                                                         "uv":  [
+                                                                                    13.0,
+                                                                                    4.5,
+                                                                                    16.0,
+                                                                                    5.5
+                                                                                ]
+                                                                     }
+                                                        }
+                                          },
+                                          {
+                                              "name":  "origin2",
+                                              "from":  [
+                                                           -3.2,
+                                                           0.0,
+                                                           0.7
+                                                       ],
+                                              "to":  [
+                                                         0.0,
+                                                         3.0,
+                                                         4.6
+                                                     ],
+                                              "unwrapMode":  4,
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         12.0,
+                                                         11.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     -0.83,
+                                                                     4.07,
+                                                                     4.05
+                                                                 ],
+                                              "rotationZ":  0.0,
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#hat",
+                                                                          "uv":  [
+                                                                                     8.0,
+                                                                                     10.5,
+                                                                                     11.0,
+                                                                                     13.5
+                                                                                 ],
+                                                                          "windMode":  [
+                                                                                           -1,
+                                                                                           -1,
+                                                                                           -1,
+                                                                                           -1
+                                                                                       ],
+                                                                          "windData":  [
+                                                                                           1,
+                                                                                           1,
+                                                                                           1,
+                                                                                           1
+                                                                                       ]
+                                                                      },
+                                                            "south":  {
+                                                                          "texture":  "#hat",
+                                                                          "uv":  [
+                                                                                     9.0,
+                                                                                     10.5,
+                                                                                     12.0,
+                                                                                     13.5
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#hat",
+                                                                         "uv":  [
+                                                                                    7.5,
+                                                                                    10.5,
+                                                                                    11.0,
+                                                                                    13.5
+                                                                                ]
+                                                                     },
+                                                            "down":  {
+                                                                         "texture":  "#hat",
+                                                                         "uv":  [
+                                                                                    23.0,
+                                                                                    1.5,
+                                                                                    26.0,
+                                                                                    5.0
+                                                                                ],
+                                                                         "windMode":  [
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1
+                                                                                      ],
+                                                                         "windData":  [
+                                                                                          1,
+                                                                                          1,
+                                                                                          1,
+                                                                                          1
+                                                                                      ]
+                                                                     }
+                                                        }
+                                          }
+                                      ]
+                     }
+                 ]
+}

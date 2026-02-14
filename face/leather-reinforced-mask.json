@@ -1,0 +1,331 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "collapsedPaths":  "Root/bandN/toothR1,Root/bandN/toothL1",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  24,
+    "textureHeight":  8,
+    "textureSizes":  {
+
+                     },
+    "textures":  {
+                     "mask":  "entity/humanoid/seraphclothes/face/leather-reinforced-mask"
+                 },
+    "elements":  [
+                     {
+                         "name":  "origin",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -1.4,
+                                      1.6,
+                                      2.3
+                                  ],
+                         "to":  [
+                                    -1.4,
+                                    1.6,
+                                    2.3
+                                ],
+                         "uv":  [
+                                    999.0,
+                                    999.0
+                                ],
+                         "rotationOrigin":  [
+                                                -1.4,
+                                                1.6,
+                                                2.3
+                                            ],
+                         "rotationZ":  3.0,
+                         "faces":  {
+
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "Mask",
+                                              "from":  [
+                                                           1.2,
+                                                           -3.0,
+                                                           -2.35
+                                                       ],
+                                              "to":  [
+                                                         6.0,
+                                                         0.5,
+                                                         2.75
+                                                     ],
+                                              "renderPass":  1,
+                                              "unwrapMode":  4,
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         1.5,
+                                                         4.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     1.2,
+                                                                     -3.0,
+                                                                     -2.4
+                                                                 ],
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#mask",
+                                                                          "uv":  [
+                                                                                     1.5,
+                                                                                     4.0,
+                                                                                     6.0,
+                                                                                     7.5
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#mask",
+                                                                         "uv":  [
+                                                                                    17.5,
+                                                                                    4.0,
+                                                                                    22.5,
+                                                                                    7.5
+                                                                                ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#mask",
+                                                                          "uv":  [
+                                                                                     12.0,
+                                                                                     4.0,
+                                                                                     16.5,
+                                                                                     7.5
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#mask",
+                                                                         "uv":  [
+                                                                                    13.5,
+                                                                                    4.5,
+                                                                                    18.5,
+                                                                                    8.0
+                                                                                ]
+                                                                     }
+                                                        },
+                                              "children":  [
+                                                               {
+                                                                   "name":  "Bottom",
+                                                                   "from":  [
+                                                                                1.0,
+                                                                                1.0,
+                                                                                0.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              4.8,
+                                                                              1.0,
+                                                                              5.1
+                                                                          ],
+                                                                   "unwrapMode":  6,
+                                                                   "unwrapRotation":  1,
+                                                                   "uv":  [
+                                                                              18.0,
+                                                                              0.5
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          1.0,
+                                                                                          1.0,
+                                                                                          0.0
+                                                                                      ],
+                                                                   "faces":  {
+                                                                                 "down":  {
+                                                                                              "texture":  "#mask",
+                                                                                              "uv":  [
+                                                                                                         18.0,
+                                                                                                         0.5,
+                                                                                                         23.0,
+                                                                                                         4.0
+                                                                                                     ],
+                                                                                              "rotation":  90,
+                                                                                              "windMode":  [
+                                                                                                               -1,
+                                                                                                               -1,
+                                                                                                               -1,
+                                                                                                               -1
+                                                                                                           ],
+                                                                                              "windData":  [
+                                                                                                               1,
+                                                                                                               1,
+                                                                                                               1,
+                                                                                                               1
+                                                                                                           ]
+                                                                                          }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "Cube2",
+                                                                   "from":  [
+                                                                                -1.0,
+                                                                                -0.0523,
+                                                                                0.6
+                                                                            ],
+                                                                   "to":  [
+                                                                              2.4,
+                                                                              2.9477,
+                                                                              0.6
+                                                                          ],
+                                                                   "uv":  [
+                                                                              1.0,
+                                                                              4.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          -0.5014,
+                                                                                          0.9477,
+                                                                                          0.6
+                                                                                      ],
+                                                                   "rotationX":  180.0,
+                                                                   "rotationY":  -12.0,
+                                                                   "rotationZ":  180.0,
+                                                                   "faces":  {
+                                                                                 "north":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          1.0,
+                                                                                                          4.5,
+                                                                                                          4.0,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           },
+                                                                                 "east":  {
+                                                                                              "texture":  "#mask",
+                                                                                              "uv":  [
+                                                                                                         4.0,
+                                                                                                         4.5,
+                                                                                                         4.5,
+                                                                                                         7.5
+                                                                                                     ]
+                                                                                          },
+                                                                                 "south":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          4.5,
+                                                                                                          4.5,
+                                                                                                          7.5,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           },
+                                                                                 "west":  {
+                                                                                              "texture":  "#mask",
+                                                                                              "uv":  [
+                                                                                                         7.5,
+                                                                                                         4.5,
+                                                                                                         8.0,
+                                                                                                         7.5
+                                                                                                     ]
+                                                                                          },
+                                                                                 "up":  {
+                                                                                            "texture":  "#mask",
+                                                                                            "uv":  [
+                                                                                                       1.0,
+                                                                                                       4.0,
+                                                                                                       4.0,
+                                                                                                       4.5
+                                                                                                   ]
+                                                                                        },
+                                                                                 "down":  {
+                                                                                              "texture":  "#mask",
+                                                                                              "uv":  [
+                                                                                                         4.0,
+                                                                                                         4.0,
+                                                                                                         7.0,
+                                                                                                         4.5
+                                                                                                     ]
+                                                                                          }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "Cube3",
+                                                                   "from":  [
+                                                                                -1.0,
+                                                                                -0.0523,
+                                                                                4.5
+                                                                            ],
+                                                                   "to":  [
+                                                                              2.4,
+                                                                              2.9477,
+                                                                              4.5
+                                                                          ],
+                                                                   "uv":  [
+                                                                              10.5,
+                                                                              4.5
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          -0.5014,
+                                                                                          0.9477,
+                                                                                          4.5
+                                                                                      ],
+                                                                   "rotationX":  -180.0,
+                                                                   "rotationY":  12.0,
+                                                                   "rotationZ":  180.0,
+                                                                   "faces":  {
+                                                                                 "north":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          10.5,
+                                                                                                          4.5,
+                                                                                                          13.5,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           },
+                                                                                 "south":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          13.5,
+                                                                                                          4.5,
+                                                                                                          16.5,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "Cube4",
+                                                                   "from":  [
+                                                                                -3.8,
+                                                                                -0.0524,
+                                                                                3.5014
+                                                                            ],
+                                                                   "to":  [
+                                                                              -0.9,
+                                                                              2.9476,
+                                                                              3.5014
+                                                                          ],
+                                                                   "uv":  [
+                                                                              8.5,
+                                                                              4.5
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          -3.3014,
+                                                                                          0.9477,
+                                                                                          3.5
+                                                                                      ],
+                                                                   "rotationX":  -4.7636,
+                                                                   "rotationY":  89.9802,
+                                                                   "rotationZ":  4.7636,
+                                                                   "faces":  {
+                                                                                 "north":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          8.5,
+                                                                                                          4.5,
+                                                                                                          11.0,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           },
+                                                                                 "south":  {
+                                                                                               "texture":  "#mask",
+                                                                                               "uv":  [
+                                                                                                          11.0,
+                                                                                                          4.5,
+                                                                                                          13.5,
+                                                                                                          7.5
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               }
+                                                           ]
+                                          }
+                                      ]
+                     }
+                 ]
+}

@@ -1,0 +1,32 @@
+{
+	"editor": {
+		"backDropShape": "dragoness-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 72,
+	"textureSizes": {
+		"coat": [28,72]
+	},
+	"textures": {
+		"coat": "entity/humanoid/seraphclothes/upperbodyover/fur-coat"
+	},
+	"elements": [
+		{
+			"name": "CollarOrigin2",
+			"stepParentName": "Neck",
+			"from": [ -0.1, 1.2, 0.0 ],
+			"to": [ 2.9, 3.2, 3.0 ],
+			"unwrapMode": 4,
+			"uv": [ 25.5, 34.0 ],
+			"rotationOrigin": [ -0.1, 1.2, 0.0 ],
+			"rotationZ": -7.0,
+			"faces": {
+			},
+			"children": [
+				...existing code...
+			]
+		}
+	]
+}
