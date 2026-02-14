@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "modid": "dadragonoid",
+    "name": "DA Dragonoid",
+    "authors": [
+        "Drav115"
+    ],
+    "description": "A noble and prideful kin, hailed in legend for being stronk.",
+    "version": "1.0.0",
+    "dependencies": {
+        "playermodellib": "1.9.10"
+    }
+}
