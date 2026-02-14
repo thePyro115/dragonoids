@@ -1,6 +1,6 @@
-{
+﻿{
     "editor":  {
-                   "backDropShape":  "dragoness-hairless",
+                   "backDropShape": "draconics-hairless",
                    "collapsedPaths":  "Root/origin/R bottom tile,Root/origin,Root/origin/R side,Root/origin/L bottom tile,Root/origin/L side,Root/head cover top",
                    "allAngles":  true,
                    "entityTextureMode":  false
@@ -3179,3 +3179,4 @@
                      }
                  ]
 }
+

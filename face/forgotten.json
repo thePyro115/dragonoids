@@ -1,6 +1,6 @@
-{
+﻿{
     "editor":  {
-                   "backDropShape":  "lizardman-hairless",
+                   "backDropShape": "draconics-hairless",
                    "allAngles":  true,
                    "entityTextureMode":  false
                },
@@ -855,3 +855,4 @@
                      }
                  ]
 }
+

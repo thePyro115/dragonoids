@@ -1,158 +1,34 @@
 {
-    "editor":  {
-                   "backDropShape":  "dragoness-hairless",
-                   "allAngles":  true,
-                   "entityTextureMode":  true
-               },
-    "textureWidth":  24,
-    "textureHeight":  16,
-    "textureSizes":  {
-                         "surgeon":  [
-                                         24,
-                                         16
-                                     ]
-                     },
-    "textures":  {
-                     "surgeon":  "entity/humanoid/seraphclothes/head/rotwalker"
-                 },
-    "elements":  [
-                     {
-                         "name":  "hidehat",
-                         "stepParentName":  "Head",
-                         "from":  [
-                                      -0.18,
-                                      -3.1,
-                                      -0.2
-                                  ],
-                         "to":  [
-                                    5.22,
-                                    5.3,
-                                    5.2
-                                ],
-                         "renderPass":  1,
-                         "unwrapMode":  4,
-                         "autoUnwrap":  false,
-                         "uv":  [
-                                    1.0,
-                                    1.0
-                                ],
-                         "rotationOrigin":  [
-                                                2.1481,
-                                                1.0,
-                                                2.6
-                                            ],
-                         "rotationZ":  2.0,
-                         "faces":  {
-                                       "north":  {
-                                                     "texture":  "#surgeon",
-                                                     "uv":  [
-                                                                1.0,
-                                                                6.0,
-                                                                6.0,
-                                                                14.0
-                                                            ]
-                                                 },
-                                       "east":  {
-                                                    "texture":  "#surgeon",
-                                                    "uv":  [
-                                                               16.0,
-                                                               6.0,
-                                                               21.0,
-                                                               14.0
-                                                           ]
-                                                },
-                                       "south":  {
-                                                     "texture":  "#surgeon",
-                                                     "uv":  [
-                                                                11.0,
-                                                                6.0,
-                                                                16.0,
-                                                                14.0
-                                                            ]
-                                                 },
-                                       "west":  {
-                                                    "texture":  "#surgeon",
-                                                    "uv":  [
-                                                               6.0,
-                                                               7.0,
-                                                               11.0,
-                                                               15.0
-                                                           ]
-                                                },
-                                       "up":  {
-                                                  "texture":  "#surgeon",
-                                                  "uv":  [
-                                                             6.0,
-                                                             1.0,
-                                                             11.0,
-                                                             6.0
-                                                         ],
-                                                  "rotation":  90
-                                              }
-                                   },
-                         "children":  [
-                                          {
-                                              "name":  "Cube2",
-                                              "from":  [
-                                                           -3.0,
-                                                           3.0,
-                                                           0.7
-                                                       ],
-                                              "to":  [
-                                                         0.0,
-                                                         7.5,
-                                                         4.7
-                                                     ],
-                                              "autoUnwrap":  false,
-                                              "uv":  [
-                                                         10.0,
-                                                         0.5
-                                                     ],
-                                              "rotationOrigin":  [
-                                                                     -3.0,
-                                                                     3.0,
-                                                                     0.7
-                                                                 ],
-                                              "faces":  {
-                                                            "north":  {
-                                                                          "texture":  "#surgeon",
-                                                                          "uv":  [
-                                                                                     2.0,
-                                                                                     9.5,
-                                                                                     5.0,
-                                                                                     14.0
-                                                                                 ]
-                                                                      },
-                                                            "south":  {
-                                                                          "texture":  "#surgeon",
-                                                                          "uv":  [
-                                                                                     16.0,
-                                                                                     9.5,
-                                                                                     19.0,
-                                                                                     14.0
-                                                                                 ]
-                                                                      },
-                                                            "west":  {
-                                                                         "texture":  "#surgeon",
-                                                                         "uv":  [
-                                                                                    6.5,
-                                                                                    7.5,
-                                                                                    10.5,
-                                                                                    12.0
-                                                                                ]
-                                                                     },
-                                                            "up":  {
-                                                                       "texture":  "#surgeon",
-                                                                       "uv":  [
-                                                                                  5.5,
-                                                                                  1.0,
-                                                                                  8.5,
-                                                                                  5.0
-                                                                              ]
-                                                                   }
-                                                        }
-                                          }
-                                      ]
-                     }
-                 ]
-}
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+		"surgeon": [24,16]
+	},
+	"textures": {
+		"surgeon": "entity/humanoid/seraphclothes/head/rotwalker"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ -0.18, -3.1, -0.2 ],
+			"to": [ 6.22, 5.3, 5.2 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 2.1481, 1.0, 2.6 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#surgeon", "uv": [ 0.0, 6.0, 6.0, 14.0 ] },
+				"east": { "texture": "#surgeon", "uv": [ 17.0, 6.0, 22.0, 14.0 ] },
+				"south": { "texture": "#surgeon", "uv": [ 11.0, 6.0, 17.0, 14.0 ] },
+				"west": { "texture": "#surgeon", "uv": [ 6.0, 6.0, 11.0, 14.0 ] },
+				"up": { "texture": "#surgeon", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90 }
+			}
+		}
+	]}

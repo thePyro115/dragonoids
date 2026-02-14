@@ -1,6 +1,6 @@
-{
+﻿{
     "editor":  {
-                   "backDropShape":  "dragoness-hairless",
+                   "backDropShape": "draconics-hairless",
                    "collapsedPaths":  "Root/origin/strapW1/lensR1,Root/origin/strapW1/lensL1,Root/origin/lensL1",
                    "allAngles":  false,
                    "entityTextureMode":  false
@@ -2381,3 +2381,4 @@
                      }
                  ]
 }
+

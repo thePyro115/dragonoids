@@ -1,6 +1,6 @@
-{
+﻿{
     "editor":  {
-                   "backDropShape":  "dragoness-hairless",
+                   "backDropShape": "draconics-hairless",
                    "allAngles":  true,
                    "entityTextureMode":  false
                },
@@ -1315,3 +1315,4 @@
 
                    ]
 }
+
