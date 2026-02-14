@@ -1,0 +1,142 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  32,
+    "textureHeight":  12,
+    "textureSizes":  {
+                         "hat":  [
+                                     32,
+                                     12
+                                 ]
+                     },
+    "textures":  {
+                     "hat":  "entity/humanoid/seraphclothes/head/jailors-hat"
+                 },
+    "elements":  [
+                     {
+                         "name":  "hidehat",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -1.05,
+                                      1.7,
+                                      -0.55
+                                  ],
+                         "to":  [
+                                    5.15,
+                                    5.2,
+                                    5.55
+                                ],
+                         "unwrapMode":  4,
+                         "uv":  [
+                                    2.0,
+                                    2.0
+                                ],
+                         "rotationOrigin":  [
+                                                1.25,
+                                                5.77,
+                                                2.8
+                                            ],
+                         "rotationZ":  1.0,
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                2.0,
+                                                                8.0,
+                                                                8.0,
+                                                                11.5
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               20.0,
+                                                               8.0,
+                                                               26.0,
+                                                               11.5
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                14.0,
+                                                                8.0,
+                                                                20.0,
+                                                                11.5
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               8.0,
+                                                               8.0,
+                                                               14.0,
+                                                               11.5
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#hat",
+                                                  "uv":  [
+                                                             8.0,
+                                                             2.0,
+                                                             14.0,
+                                                             8.0
+                                                         ],
+                                                  "rotation":  90
+                                              }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "feather",
+                                              "from":  [
+                                                           6.22,
+                                                           -4.0,
+                                                           1.5
+                                                       ],
+                                              "to":  [
+                                                         6.22,
+                                                         5.0,
+                                                         4.5
+                                                     ],
+                                              "renderPass":  1,
+                                              "unwrapMode":  2,
+                                              "uv":  [
+                                                         28.5,
+                                                         1.5
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     6.2,
+                                                                     4.0,
+                                                                     1.5
+                                                                 ],
+                                              "faces":  {
+                                                            "east":  {
+                                                                         "texture":  "#hat",
+                                                                         "uv":  [
+                                                                                    28.5,
+                                                                                    1.5,
+                                                                                    31.5,
+                                                                                    10.5
+                                                                                ],
+                                                                         "windMode":  [
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1
+                                                                                      ],
+                                                                         "windData":  [
+                                                                                          1,
+                                                                                          1,
+                                                                                          1,
+                                                                                          1
+                                                                                      ]
+                                                                     }
+                                                        }
+                                          }
+                                      ]
+                     }
+                 ]
+}

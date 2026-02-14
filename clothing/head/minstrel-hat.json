@@ -1,0 +1,94 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  28,
+    "textureHeight":  12,
+    "textureSizes":  {
+                         "hat":  [
+                                     28,
+                                     12
+                                 ]
+                     },
+    "textures":  {
+                     "hat":  "entity/humanoid/seraphclothes/head/minstrel-hat"
+                 },
+    "elements":  [
+                     {
+                         "name":  "hidehat",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.75,
+                                      1.1,
+                                      -0.55
+                                  ],
+                         "to":  [
+                                    4.95,
+                                    5.1,
+                                    5.55
+                                ],
+                         "renderPass":  1,
+                         "unwrapMode":  4,
+                         "uv":  [
+                                    1.5,
+                                    1.5
+                                ],
+                         "rotationOrigin":  [
+                                                1.65,
+                                                5.17,
+                                                2.8
+                                            ],
+                         "rotationZ":  1.0,
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                1.5,
+                                                                7.0,
+                                                                7.0,
+                                                                11.0
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               18.5,
+                                                               7.0,
+                                                               24.5,
+                                                               11.0
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hat",
+                                                     "uv":  [
+                                                                13.0,
+                                                                7.0,
+                                                                18.5,
+                                                                11.0
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#hat",
+                                                    "uv":  [
+                                                               7.0,
+                                                               7.0,
+                                                               13.0,
+                                                               11.0
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#hat",
+                                                  "uv":  [
+                                                             7.0,
+                                                             1.5,
+                                                             13.0,
+                                                             7.0
+                                                         ],
+                                                  "rotation":  90
+                                              }
+                                   }
+                     }
+                 ]
+}

@@ -1,0 +1,260 @@
+{
+    "editor":  {
+                   "backDropShape":  "dadragonoid:entity/humanoid/entity/humanoid/dragoness",
+                   "collapsedPaths":  "",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  64,
+    "textureHeight":  64,
+    "textureSizes":  {
+                         "steel":  [
+                                       64,
+                                       64
+                                   ],
+                         "iron":  [
+                                      64,
+                                      64
+                                  ]
+                     },
+    "textures":  {
+                     "material":  "game:entity/humanoid/serapharmor/plate/iron"
+                 },
+    "elements":  [
+                     {
+                         "name":  "ArmorHelmet",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.1,
+                                      -0.5,
+                                      -0.6
+                                  ],
+                         "to":  [
+                                    5.5,
+                                    5.5,
+                                    5.7
+                                ],
+                         "unwrapMode":  4,
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    27.5,
+                                    15.0
+                                ],
+                         "rotationOrigin":  [
+                                                -0.1,
+                                                -0.5,
+                                                -0.6
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#material",
+                                                     "uv":  [
+                                                                20.5,
+                                                                56.5,
+                                                                26.5,
+                                                                62.0
+                                                            ],
+                                                     "rotation":  90
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#material",
+                                                    "uv":  [
+                                                               45.5,
+                                                               20.5,
+                                                               51.5,
+                                                               26.5
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#material",
+                                                     "uv":  [
+                                                                26.5,
+                                                                56.5,
+                                                                20.5,
+                                                                62.0
+                                                            ],
+                                                     "rotation":  270,
+                                                     "autoUv":  false
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#material",
+                                                    "uv":  [
+                                                               6.0,
+                                                               0.0,
+                                                               12.0,
+                                                               6.0
+                                                           ],
+                                                    "windMode":  [
+                                                                     -1,
+                                                                     -1,
+                                                                     -1,
+                                                                     -1
+                                                                 ],
+                                                    "windData":  [
+                                                                     1,
+                                                                     1,
+                                                                     1,
+                                                                     1
+                                                                 ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#material",
+                                                  "uv":  [
+                                                             33.0,
+                                                             14.5,
+                                                             39.0,
+                                                             20.0
+                                                         ],
+                                                  "rotation":  90
+                                              },
+                                       "down":  {
+                                                    "texture":  "#material",
+                                                    "uv":  [
+                                                               57.5,
+                                                               46.0,
+                                                               63.5,
+                                                               51.5
+                                                           ],
+                                                    "rotation":  90
+                                                }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "ArmorHelmetFront",
+                                              "from":  [
+                                                           -3.5,
+                                                           0.0,
+                                                           0.7
+                                                       ],
+                                              "to":  [
+                                                         0.0,
+                                                         5.0,
+                                                         5.7
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         48.5,
+                                                         26.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     -3.5,
+                                                                     0.0,
+                                                                     0.7
+                                                                 ],
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#material",
+                                                                          "uv":  [
+                                                                                     28.5,
+                                                                                     34.0,
+                                                                                     25.0,
+                                                                                     39.0
+                                                                                 ],
+                                                                          "autoUv":  false
+                                                                      },
+                                                            "south":  {
+                                                                          "texture":  "#material",
+                                                                          "uv":  [
+                                                                                     25.0,
+                                                                                     34.0,
+                                                                                     28.5,
+                                                                                     39.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#material",
+                                                                         "uv":  [
+                                                                                    33.5,
+                                                                                    22.0,
+                                                                                    38.5,
+                                                                                    27.0
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#material",
+                                                                       "uv":  [
+                                                                                  46.5,
+                                                                                  23.0,
+                                                                                  51.5,
+                                                                                  26.5
+                                                                              ],
+                                                                       "rotation":  270
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#material",
+                                                                         "uv":  [
+                                                                                    19.0,
+                                                                                    48.0,
+                                                                                    22.5,
+                                                                                    53.0
+                                                                                ]
+                                                                     }
+                                                        }
+                                          }
+                                      ]
+                     },
+                     {
+                         "name":  "ArmorNeck",
+                         "stepParentName":  "Neck",
+                         "from":  [
+                                      -0.8,
+                                      0.6,
+                                      -0.3
+                                  ],
+                         "to":  [
+                                    3.3,
+                                    2.6,
+                                    3.3
+                                ],
+                         "unwrapMode":  4,
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    11.0,
+                                    5.5
+                                ],
+                         "rotationOrigin":  [
+                                                -0.8,
+                                                2.6,
+                                                -0.3
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#material",
+                                                     "uv":  [
+                                                                20.5,
+                                                                5.5,
+                                                                24.5,
+                                                                7.5
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#material",
+                                                    "uv":  [
+                                                               21.0,
+                                                               5.5,
+                                                               24.5,
+                                                               7.5
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#material",
+                                                     "uv":  [
+                                                                20.5,
+                                                                5.5,
+                                                                24.5,
+                                                                7.5
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#material",
+                                                    "uv":  [
+                                                               21.0,
+                                                               5.5,
+                                                               24.5,
+                                                               7.5
+                                                           ]
+                                                }
+                                   }
+                     }
+                 ]
+}
