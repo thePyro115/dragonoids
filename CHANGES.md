@@ -5,73 +5,47 @@ Fixed race/playermodel name localization so dragoness and draconics display prop
 
 ## Changes Made
 
-### 1. Updated `lang/en.json`
+### Updated `lang/en.json`
 **Key Changes:**
-- **Removed all `game:` prefixes** - PlayermodelLib expects mod-domain keys (automatically prefixed with `dadragonoid:`)
-- **Added `playermodel-<code>` keys** - Primary keys for model names in character selection:
-  - `playermodel-dragoness` → "Dragoness"
-  - `playermodel-draconics` → "Draconics"
-- **Fixed race key naming** - Changed from generic `race-dadragonoid` to specific model codes:
-  - `race-dragoness` → "Dragoness"
-  - `race-draconics` → "Draconics"
-  - `racedesc-dragoness` and `racedesc-draconics` for descriptions
-- **Added comprehensive skin part localization** - Full coverage of all customizable parts:
-  - Category names (e.g., `skinpart-voicetype` → "Voice type")
-  - All variant names (e.g., `skinpart-voicetype-snake` → "Snake")
-  - Added 70+ new localization keys for complete UI coverage
-- **Standardized color keys** - Removed `game:` prefix from color keys
+- **Added `game:` prefixed keys** - PlayermodelLib 1.9.10 may look for keys in the `game:` domain, so both formats are now provided:
+  - `playermodel-dragoness` AND `game:playermodel-dragoness` → "Dragoness"
+  - `playermodel-draconics` AND `game:playermodel-draconics` → "Draconics"
+- **Added race keys in both formats**:
+  - `race-dragoness` AND `game:race-dragoness` → "Dragoness"
+  - `race-draconics` AND `game:race-draconics` → "Draconics"
+- **Added skin part keys in both formats** - All 71 skin part and color keys now have `game:` prefixed versions for compatibility
 
-### 2. Created `.gitignore`
-Added appropriate gitignore for Vintage Story content mod:
-- OS-generated files (.DS_Store, Thumbs.db, etc.)
-- Editor files (.vscode/, .idea/, etc.)
-- Temporary and build artifacts
-
-### 3. Created `LOCALIZATION_GUIDE.md`
-Comprehensive documentation covering:
-- Localization key structure and naming conventions
-- Domain/namespace behavior (when to use prefixes)
-- Consistency guidelines and best practices
-- Complete checklist for adding new models
-- Migration notes explaining previous issues and fixes
-- Testing procedures to verify localization
+**Total localization keys:** 154 (77 mod-domain + 77 game-domain)
 
 ## Technical Details
 
 ### Why These Changes Were Needed
 
-**Previous Issues:**
-1. Mixed use of `game:` domain and un-namespaced keys caused PlayermodelLib to look in wrong domain
-2. Race keys (`race-dadragonoid`) didn't match actual model codes (`dragoness`, `draconics`)
-3. Missing `playermodel-<code>` keys that PlayermodelLib 1.9.10+ expects for model names
-4. Incomplete skin part localization - many UI elements showed raw key strings
-
 **Root Cause:**
-PlayermodelLib in VS 1.21 changed how it resolves localization keys. It now looks for keys in the mod's own domain (e.g., `dadragonoid:playermodel-dragoness`) rather than the `game:` domain. The `game:` prefix in lang files prevented proper resolution.
+PlayermodelLib in VS 1.21 changed how it resolves localization keys. Depending on how the library constructs the lookup key, it may look in either:
+- The mod's domain (`dadragonoid:playermodel-dragoness`)
+- The game domain (`game:playermodel-dragoness`)
 
 **Solution:**
-- Use un-namespaced keys in `lang/en.json` - the mod domain (`dadragonoid:`) is automatically applied
-- Match key names exactly to the model codes used in `config/customplayermodels/*.json`
-- Provide comprehensive localization for all UI-visible elements
+Provide both key formats in `lang/en.json` to ensure compatibility regardless of how PlayermodelLib resolves the keys:
+- Un-namespaced keys: `playermodel-dragoness`
+- Game-prefixed keys: `game:playermodel-dragoness`
+
+This dual-key approach ensures the localization will work regardless of which domain the library searches.
 
 ### Key Format Reference
 
-| Element | Config Code | Localization Key | Example Translation |
-|---------|-------------|------------------|---------------------|
-| Model name | `dragoness` | `playermodel-dragoness` | "Dragoness" |
-| Race name | `dragoness` | `race-dragoness` | "Dragoness" |
-| Race desc | `dragoness` | `racedesc-dragoness` | "A noble kin..." |
-| Skin part | `voicetype` | `skinpart-voicetype` | "Voice type" |
-| Part variant | `snake` | `skinpart-voicetype-snake` | "Snake" |
-| Color | `sclera` | `color-sclera` | "Sclera" |
+| Element | Config Code | Mod-Domain Key | Game-Domain Key | Example Translation |
+|---------|-------------|----------------|-----------------|---------------------|
+| Model name | `dragoness` | `playermodel-dragoness` | `game:playermodel-dragoness` | "Dragoness" |
+| Race name | `dragoness` | `race-dragoness` | `game:race-dragoness` | "Dragoness" |
+| Race desc | `dragoness` | `racedesc-dragoness` | (mod domain only) | "A noble kin..." |
+| Skin part | `voicetype` | `skinpart-voicetype` | `game:skinpart-voicetype` | "Voice type" |
+| Part variant | `snake` | `skinpart-voicetype-snake` | `game:skinpart-voicetype-snake` | "Snake" |
+| Color | `sclera` | `color-sclera` | `game:color-sclera` | "Sclera" |
 
 ## Files Modified
-- `lang/en.json` - Complete localization overhaul with 78 total keys
-
-## Files Added
-- `.gitignore` - Standard gitignore for VS content mods
-- `LOCALIZATION_GUIDE.md` - Comprehensive localization documentation
-- `CHANGES.md` - This file
+- `lang/en.json` - Added `game:` prefixed versions of all localization keys (71 new keys added)
 
 ## Files Unchanged
 - `config/customplayermodels/dragoness.json` - No changes needed (uses correct un-namespaced codes)
@@ -104,14 +78,16 @@ These changes maintain full compatibility with the existing mod structure:
 - Config files remain unchanged (still use un-namespaced model codes)
 - Model replacements remain unchanged (still use namespaced codes)
 - Asset paths remain unchanged
-- Only localization keys were updated to match PlayermodelLib 1.9.10 expectations
+- Added `game:` prefixed keys as fallbacks while keeping existing mod-domain keys
 
 ## Future Additions
 
 If adding new models in the future:
 1. Add model config to `config/customplayermodels/<modelcode>.json` with un-namespaced root key
-2. Add `playermodel-<modelcode>` and `race-<modelcode>` keys to `lang/en.json`
-3. Add all skin part localization keys following the `skinpart-<code>` pattern
+2. Add both key formats to `lang/en.json`:
+   - `playermodel-<modelcode>` and `game:playermodel-<modelcode>`
+   - `race-<modelcode>` and `game:race-<modelcode>`
+3. Add all skin part localization keys in both formats
 4. Add model replacements to bycode/byshape configs using namespaced `dadragonoid:<modelcode>`
 5. Refer to `LOCALIZATION_GUIDE.md` for complete checklist
 
