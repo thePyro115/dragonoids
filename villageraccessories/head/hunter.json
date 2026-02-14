@@ -1,0 +1,509 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "allAngles":  false,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  24,
+    "textureHeight":  16,
+    "textureSizes":  {
+
+                     },
+    "textures":  {
+                     "headtexture":  "entity/humanoid/villagerclothes/head/hunter"
+                 },
+    "elements":  [
+                     {
+                         "name":  "hidehat",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -1.0,
+                                      5.2,
+                                      -0.02
+                                  ],
+                         "to":  [
+                                    4.7,
+                                    6.2,
+                                    5.02
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    8.5,
+                                    10.0
+                                ],
+                         "rotationOrigin":  [
+                                                2.0,
+                                                5.2,
+                                                2.5
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#headtexture",
+                                                     "uv":  [
+                                                                0.0,
+                                                                5.0,
+                                                                5.5,
+                                                                6.0
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#headtexture",
+                                                    "uv":  [
+                                                               5.5,
+                                                               6.0,
+                                                               10.5,
+                                                               7.0
+                                                           ],
+                                                    "windMode":  [
+                                                                     -1,
+                                                                     -1,
+                                                                     -1,
+                                                                     -1
+                                                                 ],
+                                                    "windData":  [
+                                                                     1,
+                                                                     1,
+                                                                     1,
+                                                                     1
+                                                                 ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#headtexture",
+                                                     "uv":  [
+                                                                10.5,
+                                                                5.0,
+                                                                16.0,
+                                                                6.0
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#headtexture",
+                                                    "uv":  [
+                                                               5.5,
+                                                               5.0,
+                                                               10.5,
+                                                               6.0
+                                                           ],
+                                                    "windMode":  [
+                                                                     -1,
+                                                                     -1,
+                                                                     -1,
+                                                                     -1
+                                                                 ],
+                                                    "windData":  [
+                                                                     1,
+                                                                     1,
+                                                                     1,
+                                                                     1
+                                                                 ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#headtexture",
+                                                  "uv":  [
+                                                             0.0,
+                                                             0.0,
+                                                             5.5,
+                                                             5.0
+                                                         ]
+                                              },
+                                       "down":  {
+                                                    "texture":  "#headtexture",
+                                                    "uv":  [
+                                                               18.0,
+                                                               0.5,
+                                                               23.5,
+                                                               5.5
+                                                           ]
+                                                }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "E",
+                                              "from":  [
+                                                           5.2,
+                                                           -6.0,
+                                                           -0.51
+                                                       ],
+                                              "to":  [
+                                                         6.2,
+                                                         0.5,
+                                                         5.51
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         1.0,
+                                                         6.5
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     6.2,
+                                                                     0.5,
+                                                                     2.6
+                                                                 ],
+                                              "rotationZ":  10.0,
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     15.0,
+                                                                                     8.5,
+                                                                                     16.0,
+                                                                                     15.0
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    9.0,
+                                                                                    8.5,
+                                                                                    15.0,
+                                                                                    15.0
+                                                                                ],
+                                                                         "windMode":  [
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1
+                                                                                      ],
+                                                                         "windData":  [
+                                                                                          1,
+                                                                                          1,
+                                                                                          1,
+                                                                                          1
+                                                                                      ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     8.0,
+                                                                                     8.5,
+                                                                                     9.0,
+                                                                                     15.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    17.5,
+                                                                                    0.0,
+                                                                                    24.0,
+                                                                                    6.0
+                                                                                ],
+                                                                         "rotation":  90,
+                                                                         "windMode":  [
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1
+                                                                                      ],
+                                                                         "windData":  [
+                                                                                          1,
+                                                                                          1,
+                                                                                          1,
+                                                                                          1
+                                                                                      ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#headtexture",
+                                                                       "uv":  [
+                                                                                  9.0,
+                                                                                  7.5,
+                                                                                  15.0,
+                                                                                  8.5
+                                                                              ],
+                                                                       "rotation":  90
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    9.0,
+                                                                                    15.0,
+                                                                                    15.0,
+                                                                                    16.0
+                                                                                ],
+                                                                         "rotation":  90
+                                                                     }
+                                                        }
+                                          },
+                                          {
+                                              "name":  "N",
+                                              "from":  [
+                                                           -0.21,
+                                                           -6.0,
+                                                           -0.2
+                                                       ],
+                                              "to":  [
+                                                         6.29,
+                                                         0.5,
+                                                         0.8
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         9.5,
+                                                         2.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     0.0,
+                                                                     0.5,
+                                                                     -0.2
+                                                                 ],
+                                              "rotationX":  10.0,
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     17.0,
+                                                                                     8.5,
+                                                                                     23.5,
+                                                                                     15.0
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    16.0,
+                                                                                    8.5,
+                                                                                    17.0,
+                                                                                    15.0
+                                                                                ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     17.5,
+                                                                                     0.0,
+                                                                                     24.0,
+                                                                                     6.5
+                                                                                 ],
+                                                                          "rotation":  90
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    23.0,
+                                                                                    8.5,
+                                                                                    24.0,
+                                                                                    15.0
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#headtexture",
+                                                                       "uv":  [
+                                                                                  17.0,
+                                                                                  7.5,
+                                                                                  23.5,
+                                                                                  8.5
+                                                                              ],
+                                                                       "windMode":  [
+                                                                                        -1,
+                                                                                        -1,
+                                                                                        -1,
+                                                                                        -1
+                                                                                    ],
+                                                                       "windData":  [
+                                                                                        1,
+                                                                                        1,
+                                                                                        1,
+                                                                                        1
+                                                                                    ]
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    17.0,
+                                                                                    15.0,
+                                                                                    23.5,
+                                                                                    16.0
+                                                                                ]
+                                                                     }
+                                                        }
+                                          },
+                                          {
+                                              "name":  "S",
+                                              "from":  [
+                                                           -0.21,
+                                                           -6.0,
+                                                           4.2
+                                                       ],
+                                              "to":  [
+                                                         6.29,
+                                                         0.5,
+                                                         5.2
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         -3.0,
+                                                         5.5
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     0.0,
+                                                                     0.5,
+                                                                     5.2
+                                                                 ],
+                                              "rotationX":  -10.0,
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     17.5,
+                                                                                     0.0,
+                                                                                     24.0,
+                                                                                     6.5
+                                                                                 ],
+                                                                          "rotation":  90
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    7.0,
+                                                                                    8.5,
+                                                                                    8.0,
+                                                                                    15.0
+                                                                                ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     1.0,
+                                                                                     8.5,
+                                                                                     7.5,
+                                                                                     15.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    0.0,
+                                                                                    8.5,
+                                                                                    1.0,
+                                                                                    15.0
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#headtexture",
+                                                                       "uv":  [
+                                                                                  1.0,
+                                                                                  7.5,
+                                                                                  7.5,
+                                                                                  8.5
+                                                                              ]
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    1.0,
+                                                                                    15.0,
+                                                                                    7.5,
+                                                                                    16.0
+                                                                                ]
+                                                                     }
+                                                        }
+                                          },
+                                          {
+                                              "name":  "W",
+                                              "from":  [
+                                                           -0.2,
+                                                           -1.5,
+                                                           0.2
+                                                       ],
+                                              "to":  [
+                                                         0.3,
+                                                         0.5,
+                                                         4.8
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         1.0,
+                                                         7.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     -0.2,
+                                                                     0.5,
+                                                                     2.5
+                                                                 ],
+                                              "rotationZ":  -10.0,
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     6.0,
+                                                                                     0.0,
+                                                                                     6.5,
+                                                                                     2.0
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    18.5,
+                                                                                    2.0,
+                                                                                    23.0,
+                                                                                    4.0
+                                                                                ],
+                                                                         "windMode":  [
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1,
+                                                                                          -1
+                                                                                      ],
+                                                                         "windData":  [
+                                                                                          1,
+                                                                                          1,
+                                                                                          1,
+                                                                                          1
+                                                                                      ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     11.0,
+                                                                                     0.0,
+                                                                                     11.5,
+                                                                                     2.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    6.5,
+                                                                                    0.0,
+                                                                                    11.0,
+                                                                                    2.0
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#headtexture",
+                                                                       "uv":  [
+                                                                                  0.0,
+                                                                                  0.0,
+                                                                                  0.5,
+                                                                                  4.5
+                                                                              ],
+                                                                       "windMode":  [
+                                                                                        -1,
+                                                                                        -1,
+                                                                                        -1,
+                                                                                        -1
+                                                                                    ],
+                                                                       "windData":  [
+                                                                                        1,
+                                                                                        1,
+                                                                                        1,
+                                                                                        1
+                                                                                    ]
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    6.5,
+                                                                                    2.0,
+                                                                                    11.0,
+                                                                                    2.5
+                                                                                ],
+                                                                         "rotation":  90
+                                                                     }
+                                                        }
+                                          }
+                                      ]
+                     }
+                 ]
+}

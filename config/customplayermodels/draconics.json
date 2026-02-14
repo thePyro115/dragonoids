@@ -1,0 +1,164 @@
+{
+    "draconics":  {
+                      "ShapePath":  "dadragonoid:entity/humanoid/draconics",
+                      "MainTextureCode":  "dragoness",
+                      "Group":  "Dragon",
+                      "Icon":  "dadragonoid:icons/draconics",
+                      "GroupIcon":  "dadragonoid:icons/draconics",
+                      "SkinnableParts":  [
+                                             {
+                                                 "code":  "baseskin",
+                                                 "type":  "texture",
+                                                 "textureTarget":  "dragoness",
+                                                 "overlayTexture":  false,
+                                                 "overlayMode":  "normal",
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "lizardman-skin1",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/lizardman-skin1"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "facialexpression",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/face/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "angry"
+                                                                  },
+                                                                  {
+                                                                      "code":  "grin"
+                                                                  },
+                                                                  {
+                                                                      "code":  "kind"
+                                                                  },
+                                                                  {
+                                                                      "code":  "neutral"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sad"
+                                                                  },
+                                                                  {
+                                                                      "code":  "serious"
+                                                                  },
+                                                                  {
+                                                                      "code":  "smirk"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tired"
+                                                                  },
+                                                                  {
+                                                                      "code":  "upset"
+                                                                  },
+                                                                  {
+                                                                      "code":  "very-sad"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "eyecolor",
+                                                 "type":  "texture",
+                                                 "textureRenderTo":  {
+                                                                         "x":  108,
+                                                                         "y":  0
+                                                                     },
+                                                 "textureTarget":  "playermodellib-iris",
+                                                 "targetSkinParts":  [
+                                                                         "facialexpression"
+                                                                     ],
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "acid-green",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/acid-green"
+                                                                  },
+                                                                  {
+                                                                      "code":  "aquamarine",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/aquamarine"
+                                                                  },
+                                                                  {
+                                                                      "code":  "azure",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/azure"
+                                                                  },
+                                                                  {
+                                                                      "code":  "gold",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/goldenrod"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sapphire",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/sapphire"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "voicetype",
+                                                 "type":  "voice",
+                                                 "useDropDown":  true,
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "mute",
+                                                                      "sound":  "dadragonoid:sounds/voice/mute"
+                                                                  },
+                                                                  {
+                                                                      "code":  "snake",
+                                                                      "sound":  "dadragonoid:sounds/voice/snake"
+                                                                  },
+                                                                  {
+                                                                      "code":  "rattlesnake",
+                                                                      "sound":  "dadragonoid:sounds/voice/rattlesnake"
+                                                                  },
+                                                                  {
+                                                                      "code":  "alligator",
+                                                                      "sound":  "dadragonoid:sounds/voice/alligator"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "voicepitch",
+                                                 "type":  "voice",
+                                                 "colbreak":  true,
+                                                 "useDropDown":  true,
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "verylow"
+                                                                  },
+                                                                  {
+                                                                      "code":  "low"
+                                                                  },
+                                                                  {
+                                                                      "code":  "medium"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "lowerbody",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/villageraccessories/lowerbody/male/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "pants"
+                                                                  },
+                                                                  {
+                                                                      "code":  "fisher"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "shoulder",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/villageraccessories/shoulder/male/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "longsleeve-hood-on"
+                                                                  }
+                                                              ]
+                                             }
+                                         ]
+                  }
+}

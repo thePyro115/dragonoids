@@ -1,0 +1,708 @@
+{
+    "dragoness":  {
+                      "ShapePath":  "dadragonoid:entity/humanoid/dragoness",
+                      "MainTextureCode":  "dragoness",
+                      "Group":  "Dragon",
+                      "Icon":  "dadragonoid:icons/dragoness",
+                      "GroupIcon":  "dadragonoid:icons/dragoness",
+                      "SkinnableParts":  [
+                                             {
+                                                 "code":  "baseskin",
+                                                 "type":  "texture",
+                                                 "textureTarget":  "dragoness",
+                                                 "overlayTexture":  false,
+                                                 "overlayMode":  "normal",
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "skin1",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin1"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin2",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin2"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin3",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin3"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin4",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin4"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin5",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin5"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin6",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin6"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin7",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin7"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin8",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin8"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin9",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin9"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin10",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin10"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin11",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin11"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin12",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin12"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin13",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin13"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin14",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin14"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin15",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin15"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin16",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin16"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin17",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin17"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin18",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin18"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin19",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin19"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin20",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin20"
+                                                                  },
+                                                                  {
+                                                                      "code":  "lizardman-skin1",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/lizardman-skin1"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "facialexpression",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/face/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "angry"
+                                                                  },
+                                                                  {
+                                                                      "code":  "grin"
+                                                                  },
+                                                                  {
+                                                                      "code":  "kind"
+                                                                  },
+                                                                  {
+                                                                      "code":  "neutral"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sad"
+                                                                  },
+                                                                  {
+                                                                      "code":  "serious"
+                                                                  },
+                                                                  {
+                                                                      "code":  "smirk"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tired"
+                                                                  },
+                                                                  {
+                                                                      "code":  "upset"
+                                                                  },
+                                                                  {
+                                                                      "code":  "very-sad"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "eyecolor",
+                                                 "type":  "texture",
+                                                 "textureRenderTo":  {
+                                                                         "x":  108,
+                                                                         "y":  0
+                                                                     },
+                                                 "textureTarget":  "playermodellib-iris",
+                                                 "targetSkinParts":  [
+                                                                         "facialexpression"
+                                                                     ],
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "acid-green",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/acid-green"
+                                                                  },
+                                                                  {
+                                                                      "code":  "aquamarine",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/aquamarine"
+                                                                  },
+                                                                  {
+                                                                      "code":  "azure",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/azure"
+                                                                  },
+                                                                  {
+                                                                      "code":  "bitter-lemon",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/bitter-lemon"
+                                                                  },
+                                                                  {
+                                                                      "code":  "cadmium-orange",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/cadmium-orange"
+                                                                  },
+                                                                  {
+                                                                      "code":  "citron",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/citron"
+                                                                  },
+                                                                  {
+                                                                      "code":  "dark-green",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/dark-green"
+                                                                  },
+                                                                  {
+                                                                      "code":  "forest-green",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/forest-green"
+                                                                  },
+                                                                  {
+                                                                      "code":  "goldenrod",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/goldenrod"
+                                                                  },
+                                                                  {
+                                                                      "code":  "jade",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/jade"
+                                                                  },
+                                                                  {
+                                                                      "code":  "lavander",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/lavander"
+                                                                  },
+                                                                  {
+                                                                      "code":  "malachite",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/malachite"
+                                                                  },
+                                                                  {
+                                                                      "code":  "mantis",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/mantis"
+                                                                  },
+                                                                  {
+                                                                      "code":  "midnight",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/midnight"
+                                                                  },
+                                                                  {
+                                                                      "code":  "phthalo-blue",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/phthalo-blue"
+                                                                  },
+                                                                  {
+                                                                      "code":  "purple",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/purple"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sand",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/sand"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sapphire",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/eyes/sapphire"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sclera",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/eyes/sclera"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "voicetype",
+                                                 "type":  "voice",
+                                                 "useDropDown":  true,
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "mute",
+                                                                      "sound":  "dadragonoid:sounds/voice/mute"
+                                                                  },
+                                                                  {
+                                                                      "code":  "snake",
+                                                                      "sound":  "dadragonoid:sounds/voice/snake"
+                                                                  },
+                                                                  {
+                                                                      "code":  "rattlesnake",
+                                                                      "sound":  "dadragonoid:sounds/voice/rattlesnake"
+                                                                  },
+                                                                  {
+                                                                      "code":  "alligator",
+                                                                      "sound":  "dadragonoid:sounds/voice/alligator"
+                                                                  },
+                                                                  {
+                                                                      "code":  "altoflute",
+                                                                      "sound":  "sounds/voice/altoflute"
+                                                                  },
+                                                                  {
+                                                                      "code":  "harmonica",
+                                                                      "sound":  "sounds/voice/harmonica"
+                                                                  },
+                                                                  {
+                                                                      "code":  "oboe",
+                                                                      "sound":  "sounds/voice/oboe"
+                                                                  },
+                                                                  {
+                                                                      "code":  "clarinet",
+                                                                      "sound":  "sounds/voice/clarinet"
+                                                                  },
+                                                                  {
+                                                                      "code":  "accordion",
+                                                                      "sound":  "sounds/voice/accordion"
+                                                                  },
+                                                                  {
+                                                                      "code":  "trumpet",
+                                                                      "sound":  "sounds/voice/trumpet"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sax",
+                                                                      "sound":  "sounds/voice/sax"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tuba",
+                                                                      "sound":  "sounds/voice/tuba"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "voicepitch",
+                                                 "type":  "voice",
+                                                 "colbreak":  true,
+                                                 "useDropDown":  true,
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "verylow"
+                                                                  },
+                                                                  {
+                                                                      "code":  "low"
+                                                                  },
+                                                                  {
+                                                                      "code":  "medium"
+                                                                  },
+                                                                  {
+                                                                      "code":  "high"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "hairbase",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/hair-base/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "bald"
+                                                                  },
+                                                                  {
+                                                                      "code":  "balding"
+                                                                  },
+                                                                  {
+                                                                      "code":  "afro"
+                                                                  },
+                                                                  {
+                                                                      "code":  "combed"
+                                                                  },
+                                                                  {
+                                                                      "code":  "dreadlocks"
+                                                                  },
+                                                                  {
+                                                                      "code":  "indigenousbalding"
+                                                                  },
+                                                                  {
+                                                                      "code":  "iroquois"
+                                                                  },
+                                                                  {
+                                                                      "code":  "kniaz"
+                                                                  },
+                                                                  {
+                                                                      "code":  "layered"
+                                                                  },
+                                                                  {
+                                                                      "code":  "longflowing"
+                                                                  },
+                                                                  {
+                                                                      "code":  "longwithstrands"
+                                                                  },
+                                                                  {
+                                                                      "code":  "mediumlength-bangs"
+                                                                  },
+                                                                  {
+                                                                      "code":  "messy"
+                                                                  },
+                                                                  {
+                                                                      "code":  "messy2"
+                                                                  },
+                                                                  {
+                                                                      "code":  "classic"
+                                                                  },
+                                                                  {
+                                                                      "code":  "short"
+                                                                  },
+                                                                  {
+                                                                      "code":  "short-parted"
+                                                                  },
+                                                                  {
+                                                                      "code":  "shortspiky"
+                                                                  },
+                                                                  {
+                                                                      "code":  "short-trimmed"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tonsure"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "hairextra",
+                                                 "type":  "shape",
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/hair-extra/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "none"
+                                                                  },
+                                                                  {
+                                                                      "code":  "backbun"
+                                                                  },
+                                                                  {
+                                                                      "code":  "braidedup"
+                                                                  },
+                                                                  {
+                                                                      "code":  "elaboratestickbun"
+                                                                  },
+                                                                  {
+                                                                      "code":  "headsidebraid"
+                                                                  },
+                                                                  {
+                                                                      "code":  "largestickbun"
+                                                                  },
+                                                                  {
+                                                                      "code":  "neatbraid"
+                                                                  },
+                                                                  {
+                                                                      "code":  "classicponytail"
+                                                                  },
+                                                                  {
+                                                                      "code":  "ponytail"
+                                                                  },
+                                                                  {
+                                                                      "code":  "rolledbraidwithbun"
+                                                                  },
+                                                                  {
+                                                                      "code":  "shortmessybraid"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sidebraids"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sidebuns"
+                                                                  },
+                                                                  {
+                                                                      "code":  "siderolls"
+                                                                  },
+                                                                  {
+                                                                      "code":  "snood"
+                                                                  },
+                                                                  {
+                                                                      "code":  "thicklongfrenchbraid"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tiedback"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tieddreads"
+                                                                  },
+                                                                  {
+                                                                      "code":  "tiedtopknot"
+                                                                  },
+                                                                  {
+                                                                      "code":  "topbun"
+                                                                  },
+                                                                  {
+                                                                      "code":  "topknot"
+                                                                  },
+                                                                  {
+                                                                      "code":  "unkempt"
+                                                                  },
+                                                                  {
+                                                                      "code":  "vikingtopbraid"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "haircolor",
+                                                 "type":  "texture",
+                                                 "textureTarget":  "hair",
+                                                 "targetSkinParts":  [
+                                                                         "hairbase",
+                                                                         "hairextra"
+                                                                     ],
+                                                 "textureTemplate":  "game:entity/humanoid/seraphskinparts/hair/{code}",
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "lightgray"
+                                                                  },
+                                                                  {
+                                                                      "code":  "silverchalice"
+                                                                  },
+                                                                  {
+                                                                      "code":  "slategray"
+                                                                  },
+                                                                  {
+                                                                      "code":  "eerieblack"
+                                                                  },
+                                                                  {
+                                                                      "code":  "mossgreen"
+                                                                  },
+                                                                  {
+                                                                      "code":  "seagreen"
+                                                                  },
+                                                                  {
+                                                                      "code":  "wintergreendream"
+                                                                  },
+                                                                  {
+                                                                      "code":  "steelblue"
+                                                                  },
+                                                                  {
+                                                                      "code":  "queenblue"
+                                                                  },
+                                                                  {
+                                                                      "code":  "indigodye"
+                                                                  },
+                                                                  {
+                                                                      "code":  "heliotropegray"
+                                                                  },
+                                                                  {
+                                                                      "code":  "palatinatepurple"
+                                                                  },
+                                                                  {
+                                                                      "code":  "darkpurple"
+                                                                  },
+                                                                  {
+                                                                      "code":  "wheat"
+                                                                  },
+                                                                  {
+                                                                      "code":  "ecru"
+                                                                  },
+                                                                  {
+                                                                      "code":  "sanddune"
+                                                                  },
+                                                                  {
+                                                                      "code":  "harvestgold"
+                                                                  },
+                                                                  {
+                                                                      "code":  "cordovan"
+                                                                  },
+                                                                  {
+                                                                      "code":  "rosewood"
+                                                                  },
+                                                                  {
+                                                                      "code":  "russet"
+                                                                  },
+                                                                  {
+                                                                      "code":  "liver"
+                                                                  },
+                                                                  {
+                                                                      "code":  "oldburgundy"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "lizardmanhornsback",
+                                                 "type":  "shape",
+                                                 "useDropDown":  true,
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/lizardmanhornsback/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "hornless"
+                                                                  },
+                                                                  {
+                                                                      "code":  "curvedlong"
+                                                                  },
+                                                                  {
+                                                                      "code":  "curvedside"
+                                                                  },
+                                                                  {
+                                                                      "code":  "spiral"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "lizardmanhornstop",
+                                                 "type":  "shape",
+                                                 "useDropDown":  true,
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/lizardmanhornstop/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "hornless"
+                                                                  },
+                                                                  {
+                                                                      "code":  "bone-mohawk"
+                                                                  },
+                                                                  {
+                                                                      "code":  "carapace"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "lizardmanhornsbottom",
+                                                 "type":  "shape",
+                                                 "useDropDown":  true,
+                                                 "shapeTemplate":  {
+                                                                       "base":  "dadragonoid:entity/humanoid/seraphskinparts/lizardmanhornsbottom/{code}"
+                                                                   },
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "hornless"
+                                                                  },
+                                                                  {
+                                                                      "code":  "spike-beard"
+                                                                  },
+                                                                  {
+                                                                      "code":  "ram"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "horncolor",
+                                                 "type":  "texture",
+                                                 "textureTarget":  "seraph",
+                                                 "targetSkinParts":  [
+                                                                         "lizardmanhornsback",
+                                                                         "lizardmanhornstop",
+                                                                         "lizardmanhornsbottom",
+                                                                         "facialexpression"
+                                                                     ],
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "skin1",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin1"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin2",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin2"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin3",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin3"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin4",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin4"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin5",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin5"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin6",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin6"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin7",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin7"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin8",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin8"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin9",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin9"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin10",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin10"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin11",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin11"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin12",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin12"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin13",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin13"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin14",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin14"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin15",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin15"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin16",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin16"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin17",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin17"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin18",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin18"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin19",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin19"
+                                                                  },
+                                                                  {
+                                                                      "code":  "skin20",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/skin20"
+                                                                  },
+                                                                  {
+                                                                      "code":  "lizardman-skin1",
+                                                                      "texture":  "dadragonoid:entity/humanoid/seraphskinparts/body/lizardman-skin1"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "code":  "underwear",
+                                                 "type":  "texture",
+                                                 "useDropDown":  true,
+                                                 "textureTarget":  "dragoness",
+                                                 "overlayTexture":  true,
+                                                 "overlayMode":  "normal",
+                                                 "variants":  [
+                                                                  {
+                                                                      "code":  "twopiece",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/underwear/twopiece"
+                                                                  },
+                                                                  {
+                                                                      "code":  "leotard",
+                                                                      "texture":  "game:entity/humanoid/seraphskinparts/underwear/leotard"
+                                                                  }
+                                                              ]
+                                             }
+                                         ]
+                  }
+}

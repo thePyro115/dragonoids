@@ -1,0 +1,418 @@
+{
+    "editor":  {
+                   "backDropShape":  "G:/Program Files/VS Model Creator/[WIP]/dragoness-hairless",
+                   "collapsedPaths":  "",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  48,
+    "textureHeight":  48,
+    "textureSizes":  {
+                         "hair":  [
+                                      48,
+                                      48
+                                  ],
+                         "birch":  [
+                                       16,
+                                       16
+                                   ],
+                         "seraph-hair":  [
+                                             32,
+                                             32
+                                         ],
+                         "lightgray":  [
+                                           48,
+                                           48
+                                       ]
+                     },
+    "textures":  {
+                     "hair":  "game:entity/humanoid/seraphskinparts/hair/lightgray"
+                 },
+    "elements":  [
+                     {
+                         "name":  "Hair",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.25,
+                                      -3.1,
+                                      -0.25
+                                  ],
+                         "to":  [
+                                    4.75,
+                                    4.9,
+                                    5.25
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    1.5,
+                                    10.5
+                                ],
+                         "rotationOrigin":  [
+                                                -0.25,
+                                                -3.1,
+                                                -0.2
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                1.0,
+                                                                0.0,
+                                                                6.0,
+                                                                8.0
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hair",
+                                                    "uv":  [
+                                                               16.0,
+                                                               0.0,
+                                                               21.5,
+                                                               8.0
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                11.0,
+                                                                0.0,
+                                                                16.0,
+                                                                8.0
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#hair",
+                                                    "uv":  [
+                                                               6.0,
+                                                               0.5,
+                                                               11.5,
+                                                               8.5
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#hair",
+                                                  "uv":  [
+                                                             24.0,
+                                                             0.0,
+                                                             29.5,
+                                                             5.0
+                                                         ],
+                                                  "rotation":  90
+                                              }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "Hair-uncovered",
+                                              "from":  [
+                                                           -0.25,
+                                                           1.0,
+                                                           -0.25
+                                                       ],
+                                              "to":  [
+                                                         5.25,
+                                                         8.1,
+                                                         5.75
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         32.5,
+                                                         22.0
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     3.25,
+                                                                     8.5,
+                                                                     2.8
+                                                                 ],
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#hair",
+                                                                          "uv":  [
+                                                                                     12.5,
+                                                                                     1.0,
+                                                                                     18.0,
+                                                                                     8.0
+                                                                                 ]
+                                                                      },
+                                                            "east":  {
+                                                                         "texture":  "#hair",
+                                                                         "uv":  [
+                                                                                    15.5,
+                                                                                    0.5,
+                                                                                    21.5,
+                                                                                    7.5
+                                                                                ]
+                                                                     },
+                                                            "south":  {
+                                                                          "texture":  "#hair",
+                                                                          "uv":  [
+                                                                                     16.0,
+                                                                                     1.0,
+                                                                                     21.5,
+                                                                                     8.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#hair",
+                                                                         "uv":  [
+                                                                                    5.5,
+                                                                                    0.5,
+                                                                                    11.5,
+                                                                                    7.5
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#hair",
+                                                                       "uv":  [
+                                                                                  26.5,
+                                                                                  10.5,
+                                                                                  32.5,
+                                                                                  16.0
+                                                                              ],
+                                                                       "rotation":  90
+                                                                   }
+                                                        },
+                                              "children":  [
+                                                               {
+                                                                   "name":  "HairLeftUp",
+                                                                   "from":  [
+                                                                                0.0,
+                                                                                3.0,
+                                                                                6.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.5,
+                                                                              7.0,
+                                                                              6.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              14.0,
+                                                                              11.5
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          3.0,
+                                                                                          7.0,
+                                                                                          6.0
+                                                                                      ],
+                                                                   "rotationX":  -22.0,
+                                                                   "faces":  {
+                                                                                 "south":  {
+                                                                                               "texture":  "#hair",
+                                                                                               "uv":  [
+                                                                                                          14.0,
+                                                                                                          11.5,
+                                                                                                          19.5,
+                                                                                                          15.5
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "HairRightUp",
+                                                                   "from":  [
+                                                                                0.0,
+                                                                                3.0,
+                                                                                0.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.5,
+                                                                              7.0,
+                                                                              0.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              15.0,
+                                                                              11.5
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          3.0,
+                                                                                          7.0,
+                                                                                          0.0
+                                                                                      ],
+                                                                   "rotationX":  22.0,
+                                                                   "faces":  {
+                                                                                 "north":  {
+                                                                                               "texture":  "#hair",
+                                                                                               "uv":  [
+                                                                                                          15.0,
+                                                                                                          11.5,
+                                                                                                          20.5,
+                                                                                                          15.5
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "HairBackUp",
+                                                                   "from":  [
+                                                                                5.5,
+                                                                                4.0,
+                                                                                0.2
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.5,
+                                                                              7.0,
+                                                                              5.7
+                                                                          ],
+                                                                   "uv":  [
+                                                                              34.5,
+                                                                              39.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          5.5,
+                                                                                          7.0,
+                                                                                          2.9
+                                                                                      ],
+                                                                   "rotationZ":  22.0,
+                                                                   "faces":  {
+                                                                                 "east":  {
+                                                                                              "texture":  "#hair",
+                                                                                              "uv":  [
+                                                                                                         34.5,
+                                                                                                         39.0,
+                                                                                                         40.0,
+                                                                                                         42.0
+                                                                                                     ]
+                                                                                          }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "HairBack",
+                                                                   "from":  [
+                                                                                5.5,
+                                                                                2.2,
+                                                                                0.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.5,
+                                                                              5.2,
+                                                                              6.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              20.5,
+                                                                              11.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          5.5,
+                                                                                          5.2,
+                                                                                          2.7
+                                                                                      ],
+                                                                   "rotationZ":  19.0,
+                                                                   "faces":  {
+                                                                                 "east":  {
+                                                                                              "texture":  "#hair",
+                                                                                              "uv":  [
+                                                                                                         20.5,
+                                                                                                         11.0,
+                                                                                                         26.5,
+                                                                                                         14.0
+                                                                                                     ]
+                                                                                          }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "HairLeft",
+                                                                   "from":  [
+                                                                                0.3,
+                                                                                1.5,
+                                                                                6.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.3,
+                                                                              5.5,
+                                                                              6.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              16.0,
+                                                                              3.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          3.3,
+                                                                                          5.5,
+                                                                                          6.0
+                                                                                      ],
+                                                                   "rotationX":  -22.0,
+                                                                   "faces":  {
+                                                                                 "south":  {
+                                                                                               "texture":  "#hair",
+                                                                                               "uv":  [
+                                                                                                          16.0,
+                                                                                                          3.0,
+                                                                                                          21.0,
+                                                                                                          7.0
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "HairRight",
+                                                                   "from":  [
+                                                                                0.5,
+                                                                                1.5,
+                                                                                0.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              5.5,
+                                                                              5.5,
+                                                                              0.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              14.5,
+                                                                              3.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          3.5,
+                                                                                          5.5,
+                                                                                          0.0
+                                                                                      ],
+                                                                   "rotationX":  22.0,
+                                                                   "faces":  {
+                                                                                 "north":  {
+                                                                                               "texture":  "#hair",
+                                                                                               "uv":  [
+                                                                                                          14.5,
+                                                                                                          3.0,
+                                                                                                          19.5,
+                                                                                                          7.0
+                                                                                                      ]
+                                                                                           }
+                                                                             }
+                                                               },
+                                                               {
+                                                                   "name":  "bangs",
+                                                                   "from":  [
+                                                                                0.2,
+                                                                                5.0,
+                                                                                0.0
+                                                                            ],
+                                                                   "to":  [
+                                                                              0.2,
+                                                                              7.0,
+                                                                              6.0
+                                                                          ],
+                                                                   "uv":  [
+                                                                              7.0,
+                                                                              11.0
+                                                                          ],
+                                                                   "rotationOrigin":  [
+                                                                                          0.2,
+                                                                                          7.5,
+                                                                                          2.7
+                                                                                      ],
+                                                                   "rotationZ":  -28.0,
+                                                                   "faces":  {
+                                                                                 "west":  {
+                                                                                              "texture":  "#hair",
+                                                                                              "uv":  [
+                                                                                                         7.0,
+                                                                                                         11.0,
+                                                                                                         13.0,
+                                                                                                         13.0
+                                                                                                     ]
+                                                                                          }
+                                                                             }
+                                                               }
+                                                           ]
+                                          }
+                                      ]
+                     }
+                 ]
+}

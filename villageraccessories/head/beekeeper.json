@@ -1,0 +1,166 @@
+{
+    "editor":  {
+                   "backDropShape":  "dragoness-hairless",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  24,
+    "textureHeight":  16,
+    "textureSizes":  {
+
+                     },
+    "textures":  {
+                     "headtexture":  "entity/humanoid/villagerclothes/head/beekeeper"
+                 },
+    "elements":  [
+                     {
+                         "name":  "hood",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -1.18,
+                                      -2.93,
+                                      -0.25
+                                  ],
+                         "to":  [
+                                    5.32,
+                                    5.47,
+                                    5.15
+                                ],
+                         "renderPass":  1,
+                         "unwrapMode":  4,
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    0.5,
+                                    0.5
+                                ],
+                         "rotationOrigin":  [
+                                                1.1481,
+                                                1.17,
+                                                2.6
+                                            ],
+                         "rotationZ":  2.0,
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#headtexture",
+                                                     "uv":  [
+                                                                0.0,
+                                                                8.0,
+                                                                6.5,
+                                                                16.0
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#headtexture",
+                                                    "uv":  [
+                                                               16.0,
+                                                               8.0,
+                                                               21.0,
+                                                               16.0
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#headtexture",
+                                                     "uv":  [
+                                                                9.5,
+                                                                8.0,
+                                                                16.0,
+                                                                16.0
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#headtexture",
+                                                    "uv":  [
+                                                               5.5,
+                                                               8.0,
+                                                               10.5,
+                                                               16.0
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#headtexture",
+                                                  "uv":  [
+                                                             5.5,
+                                                             2.5,
+                                                             10.5,
+                                                             9.0
+                                                         ],
+                                                  "rotation":  90
+                                              }
+                                   },
+                         "children":  [
+                                          {
+                                              "name":  "face",
+                                              "from":  [
+                                                           -2.0,
+                                                           2.8,
+                                                           0.7
+                                                       ],
+                                              "to":  [
+                                                         0.0,
+                                                         7.3,
+                                                         4.7
+                                                     ],
+                                              "autoUnwrap":  false,
+                                              "uv":  [
+                                                         16.5,
+                                                         -0.5
+                                                     ],
+                                              "rotationOrigin":  [
+                                                                     -1.5,
+                                                                     2.8,
+                                                                     1.0
+                                                                 ],
+                                              "faces":  {
+                                                            "north":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     19.0,
+                                                                                     0.5,
+                                                                                     21.0,
+                                                                                     5.0
+                                                                                 ]
+                                                                      },
+                                                            "south":  {
+                                                                          "texture":  "#headtexture",
+                                                                          "uv":  [
+                                                                                     22.0,
+                                                                                     0.5,
+                                                                                     24.0,
+                                                                                     5.0
+                                                                                 ]
+                                                                      },
+                                                            "west":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    19.5,
+                                                                                    0.5,
+                                                                                    23.5,
+                                                                                    5.0
+                                                                                ]
+                                                                     },
+                                                            "up":  {
+                                                                       "texture":  "#headtexture",
+                                                                       "uv":  [
+                                                                                  19.5,
+                                                                                  0.0,
+                                                                                  23.5,
+                                                                                  2.0
+                                                                              ],
+                                                                       "rotation":  90
+                                                                   },
+                                                            "down":  {
+                                                                         "texture":  "#headtexture",
+                                                                         "uv":  [
+                                                                                    19.5,
+                                                                                    3.0,
+                                                                                    23.5,
+                                                                                    5.0
+                                                                                ],
+                                                                         "rotation":  90
+                                                                     }
+                                                        }
+                                          }
+                                      ]
+                     }
+                 ]
+}

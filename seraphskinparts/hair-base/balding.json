@@ -1,0 +1,100 @@
+{
+    "editor":  {
+                   "backDropShape":  "G:/Program Files/VS Model Creator/[WIP]/dragoness-hairless",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  48,
+    "textureHeight":  48,
+    "textureSizes":  {
+                         "hair":  [
+                                      48,
+                                      48
+                                  ]
+                     },
+    "textures":  {
+                     "hair":  "entity/humanoid/seraphskinparts/hair/lightgray"
+                 },
+    "elements":  [
+                     {
+                         "name":  "HairOver",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.3,
+                                      -3.3,
+                                      -0.2
+                                  ],
+                         "to":  [
+                                    6.2,
+                                    5.2,
+                                    5.2
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    32.5,
+                                    22.0
+                                ],
+                         "rotationOrigin":  [
+                                                2.7,
+                                                2.7,
+                                                2.5
+                                            ],
+                         "faces":  {
+
+                                   }
+                     },
+                     {
+                         "name":  "HairBase",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.4,
+                                      -0.8,
+                                      -0.1
+                                  ],
+                         "to":  [
+                                    4.6,
+                                    4.7,
+                                    5.1
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    1.5,
+                                    10.5
+                                ],
+                         "rotationOrigin":  [
+                                                2.6,
+                                                2.7,
+                                                2.5
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                9.0,
+                                                                26.0,
+                                                                14.0,
+                                                                31.5
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hair",
+                                                    "uv":  [
+                                                               5.0,
+                                                               26.0,
+                                                               10.0,
+                                                               31.5
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                1.0,
+                                                                26.0,
+                                                                6.0,
+                                                                31.5
+                                                            ]
+                                                 }
+                                   }
+                     }
+                 ]
+}

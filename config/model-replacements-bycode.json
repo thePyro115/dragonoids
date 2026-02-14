@@ -1,0 +1,24 @@
+{
+    "dadragonoid:dragoness": {
+        "game:armor-legs-plate-*": "dadragonoid:entity/humanoid/seraph/armor/plate/legs",
+        "game:armor-legs-scale-*": "dadragonoid:entity/humanoid/seraph/armor/scale/legs",
+        "game:armor-legs-padded-*": "dadragonoid:entity/humanoid/seraph/armor/padded/legs",
+        "game:armor-legs-lamellar-*": "dadragonoid:entity/humanoid/seraph/armor/lamellar/legs",
+        "game:armor-legs-jerkin-*": "dadragonoid:entity/humanoid/seraph/armor/jerkin/legs",
+        "game:armor-legs-improvised-*": "dadragonoid:entity/humanoid/seraph/armor/improvised/legs",
+        "game:armor-legs-tailored-*": "dadragonoid:entity/humanoid/seraph/armor/gambeson/legs",
+        "game:armor-legs-chain-*": "dadragonoid:entity/humanoid/seraph/armor/chain/legs",
+        "game:armor-legs-brigandine-*": "dadragonoid:entity/humanoid/seraph/armor/brigandine/legs"
+    },
+    "dadragonoid:draconics": {
+        "game:armor-legs-plate-*": "dadragonoid:entity/humanoid/seraph/armor/plate/legs",
+        "game:armor-legs-scale-*": "dadragonoid:entity/humanoid/seraph/armor/scale/legs",
+        "game:armor-legs-padded-*": "dadragonoid:entity/humanoid/seraph/armor/padded/legs",
+        "game:armor-legs-lamellar-*": "dadragonoid:entity/humanoid/seraph/armor/lamellar/legs",
+        "game:armor-legs-jerkin-*": "dadragonoid:entity/humanoid/seraph/armor/jerkin/legs",
+        "game:armor-legs-improvised-*": "dadragonoid:entity/humanoid/seraph/armor/improvised/legs",
+        "game:armor-legs-tailored-*": "dadragonoid:entity/humanoid/seraph/armor/gambeson/legs",
+        "game:armor-legs-chain-*": "dadragonoid:entity/humanoid/seraph/armor/chain/legs",
+        "game:armor-legs-brigandine-*": "dadragonoid:entity/humanoid/seraph/armor/brigandine/legs"
+    }
+}

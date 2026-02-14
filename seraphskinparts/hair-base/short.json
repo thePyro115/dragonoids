@@ -1,0 +1,127 @@
+{
+    "editor":  {
+                   "backDropShape":  "G:/Program Files/VS Model Creator/[WIP]/dragoness-hairless",
+                   "allAngles":  true,
+                   "entityTextureMode":  true
+               },
+    "textureWidth":  48,
+    "textureHeight":  48,
+    "textureSizes":  {
+                         "hair":  [
+                                      48,
+                                      48
+                                  ],
+                         "birch":  [
+                                       16,
+                                       16
+                                   ],
+                         "lightgray":  [
+                                           48,
+                                           48
+                                       ]
+                     },
+    "textures":  {
+                     "hair":  "game:entity/humanoid/seraphskinparts/hair/lightgray"
+                 },
+    "elements":  [
+                     {
+                         "name":  "Hair",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.2,
+                                      -3.1,
+                                      -0.25
+                                  ],
+                         "to":  [
+                                    4.8,
+                                    4.9,
+                                    5.25
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    2.0,
+                                    2.5
+                                ],
+                         "rotationOrigin":  [
+                                                3.0,
+                                                2.0,
+                                                2.5
+                                            ],
+                         "faces":  {
+                                       "north":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                0.0,
+                                                                1.0,
+                                                                5.0,
+                                                                9.0
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "texture":  "#hair",
+                                                    "uv":  [
+                                                               18.0,
+                                                               1.0,
+                                                               23.5,
+                                                               9.0
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "texture":  "#hair",
+                                                     "uv":  [
+                                                                11.0,
+                                                                1.0,
+                                                                16.0,
+                                                                9.0
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "texture":  "#hair",
+                                                    "uv":  [
+                                                               6.0,
+                                                               0.5,
+                                                               11.5,
+                                                               8.5
+                                                           ]
+                                                },
+                                       "up":  {
+                                                  "texture":  "#hair",
+                                                  "uv":  [
+                                                             24.0,
+                                                             0.0,
+                                                             29.5,
+                                                             5.0
+                                                         ],
+                                                  "rotation":  90
+                                              }
+                                   }
+                     },
+                     {
+                         "name":  "Hair tile upper part",
+                         "stepParentName":  "Head",
+                         "from":  [
+                                      -0.4,
+                                      -2.0,
+                                      -0.5
+                                  ],
+                         "to":  [
+                                    5.1,
+                                    5.0,
+                                    5.5
+                                ],
+                         "autoUnwrap":  false,
+                         "uv":  [
+                                    3.0,
+                                    9.0
+                                ],
+                         "rotationOrigin":  [
+                                                3.1,
+                                                5.5,
+                                                2.5
+                                            ],
+                         "faces":  {
+
+                                   }
+                     }
+                 ]
+}
